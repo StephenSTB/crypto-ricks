@@ -1,0 +1,15 @@
+{
+  "name": "crypto-rick",
+  "version": "1.0.0",
+  "description": "Project creating unique images generated with vrf distributed on ethereum.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StephenSTB",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/merge-images": "^1.2.1"
+  }
+}

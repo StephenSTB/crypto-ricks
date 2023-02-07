@@ -1,0 +1,5 @@
+{
+    "network": "Ganache",
+    "chain_id": 1337,
+    "contract" : "0x..."
+}

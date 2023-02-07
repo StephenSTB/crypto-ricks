@@ -1,0 +1,54 @@
+{
+    "name": "Crypto Rick 1",
+    "id": 1,
+    "external_url": "CryptoRicksDapp.eth",
+    "previous_cid": "bagaaiera7bekls7sohfxc73o2koj7lmjevrm77ozjtrig2ryaopqfmobabrq",
+    "vrf_message_hex": "0x6261676161696572613762656b6c7337736f6866786337336f326b6f6a376c6d6a6576726d37376f7a6a74726967327279616f7071666d6f6261627271",
+    "vrf_hash": "0x7a34b762f6aae7ae6e08d8a86aed4d6428400232a85328fbf68965c431311022",
+    "vrf_proof": "0x02299ef3458710a59339458d8fbbfc1128fa15ba66eeea8bfce443fe7d61015006d0890e42128fdda547a78becc7342d4c473f549ea0c87839418538cfb7d5ba2b0717a30ae698a53015a8335e2b939b11",
+    "image": "ipfs://bafkreienuiucdehthkdbg43i65fujl7kkpwyww5sry3hlwhokvisgqbcmu",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": "orange"
+        },
+        {
+            "trait_type": "coat",
+            "value": "purple"
+        },
+        {
+            "trait_type": "shirt",
+            "value": "teal"
+        },
+        {
+            "trait_type": "head",
+            "value": "brown"
+        },
+        {
+            "trait_type": "face",
+            "value": "large wrinkle"
+        },
+        {
+            "trait_type": "eyebrow",
+            "value": "purple"
+        },
+        {
+            "trait_type": "eyes",
+            "value": "green"
+        },
+        {
+            "trait_type": "drool",
+            "value": "teal"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "original percentage",
+            "value": 12.5
+        }
+    ],
+    "network": "Goerli",
+    "chain_id": 1337,
+    "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
+    "contract": "0xA2399a92d726e88960dd606789F0cc1162D15189",
+    "signature": "0x39e68f06245b31ca3d962a239fa290ad358d1d53a5eb1b2c6ea17874d70aa5eb021d58dc8c170d3cf5c189ec201f44ac6e811f435b421d8f1be2254b1f2f03d21b"
+}

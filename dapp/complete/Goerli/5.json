@@ -1,0 +1,54 @@
+{
+    "name": "Crypto Rick 5",
+    "id": 5,
+    "external_url": "CryptoRicksDapp.eth",
+    "previous_cid": "bagaaierapjc4meozfex2yfcvncbhzulfmflkcmfnnnueivjyq67zawtkmymq",
+    "vrf_message_hex": "0x626167616169657261706a63346d656f7a66657832796663766e6362687a756c666d666c6b636d666e6e6e756569766a797136377a6177746b6d796d71",
+    "vrf_hash": "0xa16a46df8e1448d71610c681c29889546c092c96c573a9250a854f696d1c70bd",
+    "vrf_proof": "0x032795a9da6a86af838ed4ab669fdf96e0881a79cf8c4e0e2c10649679594386a802e3f90c5f01474777756e65b91700d1e40c746373d6e5d9ba509518382a61a184737eab749a0c9f632df4f9c17c104c",
+    "image": "ipfs://bafkreidjaiaiogjbojfprr2wyxqvkzzdvi667at65tqzlmd4od2hvlkh6i",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": "purple"
+        },
+        {
+            "trait_type": "coat",
+            "value": "green"
+        },
+        {
+            "trait_type": "shirt",
+            "value": "teal"
+        },
+        {
+            "trait_type": "head",
+            "value": "gray"
+        },
+        {
+            "trait_type": "face",
+            "value": "normal"
+        },
+        {
+            "trait_type": "eyebrow",
+            "value": "green"
+        },
+        {
+            "trait_type": "eyes",
+            "value": "green"
+        },
+        {
+            "trait_type": "drool",
+            "value": "purple"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "original percentage",
+            "value": 25
+        }
+    ],
+    "network": "Goerli",
+    "chain_id": 1337,
+    "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
+    "contract": "0xA2399a92d726e88960dd606789F0cc1162D15189",
+    "signature": "0x86179ff8b064df98d6f87fd52788859a7abd018ff970eaf1d4a805ae81accc443c3fe4395fbc810e508f96993ef6705e06e4fdaa19573c55f41ab043b3b7d67c1b"
+}

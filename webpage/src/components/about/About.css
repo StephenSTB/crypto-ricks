@@ -1,0 +1,202 @@
+#about{
+    font-size: 18pt;
+    /*font-family: Roboto;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introduction, #generation-introduction, #contract-introduction, #metadata-introduction, #attribute-percentage, #metadata-introduction, #metadata-introduction, #about-protcol, #protocol-introduction{
+    width: 90%;
+}
+
+#generation, #attributes, #value-label, .attribute-value, .attribute-value-last, #about-contract, #attribute-percentage,#about-metadata, #about-protocol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#generation-introduction, #about-contract, #attribute-percentage, #metadata-introduction, #protocol-introduction {
+    /*font-family: Roboto;*/
+    text-align: left;
+    margin-left: 10px;
+    align-self: center;
+    line-height: 1.8;
+}
+
+.about-link{
+    text-decoration: none;
+}
+#table-outer{
+    display: flex ;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+#table-top, #table-main{
+    display: flex;
+    flex-direction: row;
+}
+
+#top-label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    border-bottom:  solid 1px black;
+    /**/
+}
+
+#value-label{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#top-values{
+    display: flex;
+    flex-direction: row;
+}
+
+.attribute-value{
+    border-right: 1px solid black;
+}
+
+#table-side{
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid black;
+}
+#side-label{
+    display:  flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+#traits-label{
+    transform: rotate(-90deg);
+}
+
+#side-traits, #top-values{
+    width: 100%;
+}
+
+.side-trait{
+    border-bottom: 1px solid black;
+}
+.side-trait, .side-trait-last{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#table{
+    width: 100%;
+    height: 100%;
+    /*border:  solid 1px gainsboro;*/
+    border-bottom-right-radius: 30px;
+}
+
+.table-row{
+    border-bottom: 1px solid black;
+    display: flex ;
+    flex-direction: row;
+}
+
+.table-row-last{
+    display: flex ;
+    flex-direction: row;
+}
+
+.table-col{
+    border-right: 1px solid black;
+}
+.table-col, .table-col-last{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-font{
+    font-size: 15pt;
+}
+
+#iterations{
+    color: var(--light);
+}
+
+#attribute-percentage{
+
+    margin-top: 20px;
+
+}
+/* Desktop */
+@media screen and (min-width: 900px) {
+
+    #about{
+        width: 70%;
+        border-left:solid 1px black ;
+        border-right:solid 1px black ;
+        align-self: center;
+    }
+    #table-outer{
+        width: 800px;
+        margin-top: 10px;
+    }
+    #value-label, #top-values{
+        height: 49px;
+        min-height: 49px;
+        max-height: 49px;
+    }
+    .attribute-value, .attribute-value-last{
+        width: 127px;
+        min-width: 127px;
+        max-width: 127px;
+    }
+    #table-spacer{
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 165px;
+        min-width: 165px;
+        max-width: 165px;
+        height: 100px;
+    }
+    #table-side{
+        width: 165px;
+        min-width: 165px;
+        max-width: 165px;
+    }
+    .side-trait, .side-trait-last{
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    #table-main{
+        height: 400px;
+        min-height: 400px;
+        max-height: 400px;
+    }
+    .table-row, .table-row-last{
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    .table-col, .table-col-last{
+        width: 127px;
+        min-width: 127px;
+        max-width: 127px;
+        
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) 
+{
+	
+}

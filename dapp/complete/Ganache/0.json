@@ -1,0 +1,54 @@
+{
+    "name": "Crypto Rick 0",
+    "id": 0,
+    "external_url": "CryptoRicks.eth",
+    "iterations": 29184,
+    "vrf_message_hex": "0x61323735386332303538613038313935373264393335313730366139393832376536393965343366643535316462643035346234613436653264393766373666",
+    "vrf_hash": "0x52f94bd3115cabdc9c3a2bfdd1c9db2a71fd3e9434140fed3a2c751a84fc8ca0",
+    "vrf_proof": "0x031c61c4fc5504f657ea77168dcb072e677c4bf1f2f3aa7e3a4099c559454768bdb85d659ac3cace21c1eabf4f1354122596323c86dc7068628e544ff4bc1b5c6b8ac6621ee76d602de2bb5a55b33ed21e",
+    "image": "ipfs://bafkreibsywkattjr7bwawc2mxhhs4ckfandiubq6s45cxsbdkgq7rp5p6y",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": "teal"
+        },
+        {
+            "trait_type": "coat",
+            "value": "white"
+        },
+        {
+            "trait_type": "shirt",
+            "value": "teal"
+        },
+        {
+            "trait_type": "head",
+            "value": "beige"
+        },
+        {
+            "trait_type": "face",
+            "value": "normal"
+        },
+        {
+            "trait_type": "eyebrow",
+            "value": "teal"
+        },
+        {
+            "trait_type": "eyes",
+            "value": "white"
+        },
+        {
+            "trait_type": "drool",
+            "value": "green"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "original percentage",
+            "value": 100
+        }
+    ],
+    "network": "Ganache",
+    "chain_id": 1337,
+    "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
+    "contract": "0x0AcF4C566fCe1F4b17257bE3e94adb5beAef3832",
+    "signature": "0x3f146a413116df405d9dc0fe4eef4a640415057610db2e1e46f61af1f5028c5727295da4984d9b9699aec87f75ac4996ec0844ce5653f079125726d12a4e342a1b"
+}

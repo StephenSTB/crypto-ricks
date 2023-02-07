@@ -1,0 +1,54 @@
+{
+    "name": "Crypto Rick 7",
+    "id": 7,
+    "external_url": "CryptoRicks.eth",
+    "previous_cid": "bagaaiera2rogcqxgc6yecz4ohxh2nfen6cga3olq2m6sswrz7m7p2fp2j2cq",
+    "vrf_message_hex": "0x62616761616965726132726f676371786763367965637a346f687868326e66656e36636761336f6c71326d36737377727a376d3770326670326a326371",
+    "vrf_hash": "0x4781224ae5b1bbcc9191051d8189e1ab2ea0cda3b6a23f8b1c692ff4c3e1d52e",
+    "vrf_proof": "0x036432d66564e686d25fb7a51a9fe428a7e4572c91fd274899d8900c1f5998813fa466d7d2824753e98ba561499602b977398bc2780f0c5d6bb164c1041cd0ae9f38fb31b39fe804bad881bcd3ccaf2c60",
+    "image": "ipfs://bafkreihon2evzlvpunoiq42pbpyzk3cmbhplruj3l5tcvh2byterfieb4i",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": "yellow"
+        },
+        {
+            "trait_type": "coat",
+            "value": "purple"
+        },
+        {
+            "trait_type": "shirt",
+            "value": "green"
+        },
+        {
+            "trait_type": "head",
+            "value": "brown"
+        },
+        {
+            "trait_type": "face",
+            "value": "baggy eyelids"
+        },
+        {
+            "trait_type": "eyebrow",
+            "value": "yellow"
+        },
+        {
+            "trait_type": "eyes",
+            "value": "red"
+        },
+        {
+            "trait_type": "drool",
+            "value": "green"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "original percentage",
+            "value": 12.5
+        }
+    ],
+    "network": "Ganache",
+    "chain_id": 1337,
+    "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
+    "contract": "0x0AcF4C566fCe1F4b17257bE3e94adb5beAef3832",
+    "signature": "0x1c26cab1ee93adde4f93eb83b9355785d5e00d9b99454a772f2c97bfbeb682fe63bb1554b710974f55c2c8912ad8bee4ffdc5fbb92646cfc8d63eb832a6aa5541b"
+}

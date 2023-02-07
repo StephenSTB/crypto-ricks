@@ -1,0 +1,10 @@
+{
+    "Ganache": {
+        "VRFHelper": "0x6300EC390036dF56bcE862a891755858980107d4",
+        "CryptoRicks": "0x0AcF4C566fCe1F4b17257bE3e94adb5beAef3832"
+    },
+    "Goerli": {
+        "VRFHelper": "0x41F6AC965c8621B44991E69C7Dce00717f074FE7",
+        "CryptoRicks": "0xA2399a92d726e88960dd606789F0cc1162D15189"
+    }
+}
