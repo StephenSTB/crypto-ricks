@@ -5,6 +5,8 @@
     margin-top: 30px;
 }
 
+
+
 /*
 .img-0, .img-1, .img-2{
     background-repeat: no-repeat;
@@ -36,26 +38,62 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #mint-remaining, #mint-value{
     margin-top: 10px;
 }
-#mint-button{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+#mint-container{
+    /*flex-grow: 1;*/
 }
+
 
 /* Desktop */
 @media screen and (min-width: 900px) {
+    #mint-prompt{
+        font-size: 22pt;
+    }
     #mint-info{
-        width: 700px;
+        width: 500px;
         
     }
+    #mint-section{
+        width: 300px;
+    }
+    #mint-text{
+        display: flex;
+        flex-direction: column;
+        /*border: solid 1px black;*/
+        font-size: 22pt;
+        
+    }
+    #mint-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*border: 1px solid black;*/
+    }
+
+    #mint-button{
+        width: 200px;
+        height: 65px;
+        border-radius: 40px;
+        font-size: 25pt;
+        margin-top: 70px;
+    }
+    
 }
 
 /*Mobile*/
 @media screen and (max-width: 600px) 
 {
-    
+    #mint-button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #mint-text{
+        margin-top: 10px;
+    }
 }

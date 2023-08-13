@@ -1,10 +1,42 @@
 {
     "Ganache": {
-        "VRFHelper": "0x6300EC390036dF56bcE862a891755858980107d4",
-        "CryptoRicks": "0x0AcF4C566fCe1F4b17257bE3e94adb5beAef3832"
+        "CryptoRicks": {
+            "address": "0xDFF48775312df2e2378eDdA8a3CB5935e8EDd536",
+            "block": 0
+        },
+        "VRFHelper": {
+            "address": "0x8102683b085659583B65cD48D81D2345c98a72D7",
+            "block": 0
+        }
+    },
+    "Hyperspace": {
+        "VRFHelper": {
+            "address": "0x3c0688abb0b488fff195e4122d07a69dae446294",
+            "block": 0
+        },
+        "CryptoRicks": {
+            "address": "0xa5788a3f324872e1A31bD769EF79A68dBE1E1202",
+            "block": 0
+        }
     },
     "Goerli": {
-        "VRFHelper": "0x41F6AC965c8621B44991E69C7Dce00717f074FE7",
-        "CryptoRicks": "0xA2399a92d726e88960dd606789F0cc1162D15189"
+        "CryptoRicks": {
+            "address": "0x3807c8Bf9BB9c84B6F17485Db367d385fDa804E0",
+            "block": 0
+        },
+        "VRFHelper": {
+            "address": "0xc7fE3D7732Da6f603cBf60318B3d0cd810bb28A7",
+            "block": 0
+        }
+    },
+    "Base": {
+        "VRFHelper": {
+            "address": "0xC2a2Ee0Dd1050aE15CeC33D1Fd4e1911ad54226c",
+            "block": 0
+        },
+        "CryptoRicks": {
+            "address": "0x94dD01108e8456c8857335DA1EDFe4095Fd8118B",
+            "block": 0
+        }
     }
 }

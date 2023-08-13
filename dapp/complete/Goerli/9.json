@@ -1,24 +1,25 @@
 {
     "name": "Crypto Rick 9",
+    "description": "A verifiably unique Rick, part of a collection of 1000 Crypto Ricks. Created by SB Labs.",
     "id": 9,
-    "external_url": "CryptoRicksDapp.eth",
-    "previous_cid": "bagaaiera6ujfq4amq3inn7pkowc2dm7hlyuxvbnpfsp67fafdruhnyxmmpuq",
-    "vrf_message_hex": "0x62616761616965726136756a667134616d7133696e6e37706b6f776332646d37686c79757876626e706673703637666166647275686e79786d6d707571",
-    "vrf_hash": "0xa291366cccbb32ac735d6d8f47e788bd618446bd8530aa707c270a544b4bb85c",
-    "vrf_proof": "0x0396c4dedfc6dc87fccc4e3f66c08ac5c5326bf9736b5949290a15cb7121776fd736c8bcb8e9da5033616957049027b02c4fbfec67414ca8aa6fbd3a79f98a440ce22769d02209d8cf4f54fdf0a17e5926",
-    "image": "ipfs://bafkreieqerblka6b3p7q3xe55ar7j6e4vgdk4rxtlhvkjatsji2p3qbmwi",
+    "external_url": "CryptoRicks.eth",
+    "previous_cid": "bagaaiera2pswbssd3zimy2twrgthcafd5mpzfhtlone7jbf4dff7ifivp7nq",
+    "vrf_message_hex": "0x6261676161696572613270737762737364337a696d793274777267746863616664356d707a6668746c6f6e65376a626634646666376966697670376e71",
+    "vrf_hash": "0x2fcc2e9c049499d7e2d211a4a183e4d9cf351aa309bda937c558d34df35077cb",
+    "vrf_proof": "0x03d2f662b50d9513d817e89277aab377c1d4afe04361e346cb8d7a48efe6bb0fb20f4f614803022ca65b2e8748b9e63f0d91543aaa36299caa211d007547b790f43ffd1b62343cefd00958a3bf98e0fee7",
+    "image": "ipfs://bafkreicgda2nsectfvavh6z7tp7lvo63xxd22romjucyr6mcyilm5rlqe4",
     "attributes": [
         {
             "trait_type": "hair",
-            "value": "orange"
+            "value": "green"
         },
         {
             "trait_type": "coat",
-            "value": "white"
+            "value": "purple"
         },
         {
             "trait_type": "shirt",
-            "value": "teal"
+            "value": "purple"
         },
         {
             "trait_type": "head",
@@ -26,11 +27,11 @@
         },
         {
             "trait_type": "face",
-            "value": "small wrinkle"
+            "value": "normal"
         },
         {
             "trait_type": "eyebrow",
-            "value": "yellow"
+            "value": "teal"
         },
         {
             "trait_type": "eyes",
@@ -38,17 +39,17 @@
         },
         {
             "trait_type": "drool",
-            "value": "green"
+            "value": "teal"
         },
         {
             "display_type": "number",
             "trait_type": "original percentage",
-            "value": 37.5
+            "value": 25
         }
     ],
     "network": "Goerli",
-    "chain_id": 1337,
+    "chain_id": 5,
     "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
-    "contract": "0xA2399a92d726e88960dd606789F0cc1162D15189",
-    "signature": "0x8ee76968cc50ac8d28f5c0800fe8b38b45027daf157b7ab9a3dfa8c539d957f90aa10b5053da9b44643cbdb13f21aa5b0fc9f9971022a14f149e64a446ed55d01b"
+    "contract": "0x3807c8Bf9BB9c84B6F17485Db367d385fDa804E0",
+    "signature": "0x910095afce856e0a1194131aec964c0028d9b345e3d907c80599c4f8fb36854a06242ca09577974cee5978c82077c83866ad1f26aafd116d680dc70dd0e63ed01b"
 }

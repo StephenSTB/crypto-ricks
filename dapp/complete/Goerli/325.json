@@ -1,0 +1,55 @@
+{
+    "name": "Crypto Rick 325",
+    "description": "A verifiably unique Rick, part of a collection of 1000 Crypto Ricks. Created by SB Labs.",
+    "id": 325,
+    "external_url": "CryptoRicks.eth",
+    "previous_cid": "bagaaieraq5ychxom6komcxlhvdg7pgnkq7km2kgajcichnr4ugpl2nqb5t2a",
+    "vrf_message_hex": "0x6261676161696572617135796368786f6d366b6f6d63786c687664673770676e6b71376b6d326b67616a636963686e72347567706c326e716235743261",
+    "vrf_hash": "0xce8e08f20cda06271e5b0c4e43c1207b7b013593c40dfa0eccad77d495128d07",
+    "vrf_proof": "0x032385632ab0c76ed0ef45754ee460f7a1ba6089c47cff60f113d96f9cfe590f6f21d6c53ff17bd1cde6158f5eecc842b2cdd9a07ab548190cfc0c67f752b8eaf206f30689c1a8f7ff748c41a9645c86bb",
+    "image": "ipfs://bafkreibj5qcjruaq7jurv6z5232ajzg5twqeqqspbnl6ysdnytlgc6otdu",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": "orange"
+        },
+        {
+            "trait_type": "coat",
+            "value": "white"
+        },
+        {
+            "trait_type": "shirt",
+            "value": "green"
+        },
+        {
+            "trait_type": "head",
+            "value": "beige"
+        },
+        {
+            "trait_type": "face",
+            "value": "large wrinkle"
+        },
+        {
+            "trait_type": "eyebrow",
+            "value": "green"
+        },
+        {
+            "trait_type": "eyes",
+            "value": "green"
+        },
+        {
+            "trait_type": "drool",
+            "value": "orange"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "original percentage",
+            "value": 25
+        }
+    ],
+    "network": "Goerli",
+    "chain_id": 5,
+    "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
+    "contract": "0x3807c8Bf9BB9c84B6F17485Db367d385fDa804E0",
+    "signature": "0xeeaf611722a02c16bd901dabf833ed97af55ff84d0a20a46d076d2b0729d4dbb26cb0b730eb964f5cfe559c42a030b72eef0bcad62d0a4bad72025c2fc1a04d91c"
+}

@@ -1,5 +1,6 @@
 export interface OriginalMetadata{
     name: string;
+    description: string
     id: number;
     external_url: string;
     iterations : number;
@@ -17,6 +18,7 @@ export interface OriginalMetadata{
 
 export interface Metadata{
     name: string;
+    description: string
     id: number;
     external_url: string;
     previous_cid : string;
@@ -44,7 +46,8 @@ export interface SwitchError{
 
 export interface ViewData{
     imageURL: string;
-    id: number
+    id: number;
+    percentage: number
 }
 
 export interface Meta{

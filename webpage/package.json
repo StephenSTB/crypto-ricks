@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0",
+    "@helia/unixfs": "^1.0.4",
     "@sb-labs/basic-components": "file:../../basic-components/sb-labs-basic-components-0.1.0.tgz",
-    "@sb-labs/contract-factory": "file:../../contract-factory/sb-labs-contract-factory-1.0.0.tgz",
+    "@sb-labs/contract-factory-v1": "file:../../contract-factory-v1/sb-labs-contract-factory-v1-1.0.0.tgz",
     "@sb-labs/web3-data": "file:../../web3-data/sb-labs-web3-data-1.0.0.tgz",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,7 @@
     "@types/react-dom": "^18.0.10",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
     "ipfs": "^0.66.0",
     "it-all": "^2.0.0",
     "merkletreejs": "^0.3.9",
@@ -28,6 +30,7 @@
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
     "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "typescript": "^4.9.4",
     "uint8arrays": "^4.0.3",
     "url": "^0.11.0",
@@ -39,7 +42,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "install-contract-factory": "npm install ../../contract-factory/sb-labs-contract-factory-1.0.0.tgz",
+    "install-contract-factory": "npm install ../../contract-factory-v1/sb-labs-contract-factory-v1-1.0.0.tgz",
     "install-basic-components": "npm install ../../basic-components/sb-labs-basic-components-0.1.0.tgz",
     "install-web3-data": "npm install ../../web3-data/sb-labs-web3-data-1.0.0.tgz"
   },
@@ -63,6 +66,7 @@
   },
   "proxy": "http://localhost:3000",
   "devDependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@types/webpack-env": "^1.18.0"
   }
 }

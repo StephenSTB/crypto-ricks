@@ -5,7 +5,7 @@ import "./TopBar.css"
 
 interface TopBarProps{
     selectedAccount: string;
-    connect() : void
+    connectWeb3() : void
 }
 
 export const TopBar = (props:TopBarProps) =>{
@@ -24,12 +24,14 @@ export const TopBar = (props:TopBarProps) =>{
     },[location])
 
     return <div id="topbar">
-                <div id="topbar-logo" onClick={() => navigate("/")}>Crypto Ricks</div>
-                <div id="topbar-links">
-                    <div className={`topbar-link ${active === "mint" ? "active-link" : ""}`} onClick={() => navigate("/mint")}>Mint</div>
-                    <div className={`topbar-link ${active === "view" ? "active-link" : ""}`} onClick={() => navigate("/view/minted")}>View</div>
-                    <div className={`topbar-link ${active === "about" ? "active-link" : ""}`} onClick={() => navigate("/about")}>About</div>
+                <div id="topbar-container">
+                    <div id="topbar-logo" onClick={() => navigate("/")}>Crypto Ricks</div>
+                    <div id="topbar-links">
+                        <div className={`topbar-link ${active === "mint" ? "active-link" : ""}`} onClick={() => navigate("/mint")}>Mint</div>
+                        <div className={`topbar-link ${active === "view" ? "active-link" : ""}`} onClick={() => navigate("/view/minted")}>View</div>
+                        <div className={`topbar-link ${active === "about" ? "active-link" : ""}`} onClick={() => navigate("/about")}>About</div>
+                    </div>
+                    <div id="topbar-wallet" onClick={()=> props.connectWeb3()}>{props.selectedAccount}</div>
                 </div>
-                <div id="topbar-wallet" onClick={()=> props.connect()}>{props.selectedAccount}</div>
             </div>;
 }

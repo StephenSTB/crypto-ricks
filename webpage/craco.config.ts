@@ -10,6 +10,8 @@ module.exports = {
         "path": require.resolve("path-browserify"),
         "os": require.resolve("os-browserify/browser"),
         "url": require.resolve("url/"),
+        "http": require.resolve("stream-http"),
+        "https": require.resolve("https-browserify"),
         "fs": false
       },
       plugins : {
@@ -21,4 +23,7 @@ module.exports = {
         ]
       },
   },
+  babel:{
+    plugins:["@babel/plugin-syntax-import-assertions"]
+  }
 }

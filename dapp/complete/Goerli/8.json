@@ -1,20 +1,21 @@
 {
     "name": "Crypto Rick 8",
+    "description": "A verifiably unique Rick, part of a collection of 1000 Crypto Ricks. Created by SB Labs.",
     "id": 8,
-    "external_url": "CryptoRicksDapp.eth",
-    "previous_cid": "bagaaiera7fatvbynjtjxppq5lf47qjivc3zcfdyi5ldmb523bc3kqddyryxq",
-    "vrf_message_hex": "0x626167616169657261376661747662796e6a746a78707071356c663437716a697663337a6366647969356c646d623532336263336b7164647972797871",
-    "vrf_hash": "0x9946f92e61582b1d21db66aed47fadbcc5696a0556114a7d210c99881f2906b7",
-    "vrf_proof": "0x036048fca7dc90c16a058c783ea73704aad388cdd2cf3828b3810e6aa6b547352ccab7f9332a4beccf08f9c629982ac31927ae54b00b2d0644841b776991aa9e25d69f1cb11ac3ebc7208cece215cd085c",
-    "image": "ipfs://bafkreibptt7o6iuhf5cc4wr3gdgynivh7ypidr5ufqdhgw2mmvtr5hdk24",
+    "external_url": "CryptoRicks.eth",
+    "previous_cid": "bagaaieram5avsdna6upxsxrzxpj3if2tdfz7ufmqtyzsapz6mvqn63vdbi4a",
+    "vrf_message_hex": "0x6261676161696572616d35617673646e61367570787378727a78706a336966327464667a3775666d7174797a7361707a366d76716e3633766462693461",
+    "vrf_hash": "0xc197a22979bf1158983b9e5c607afa989a848c53da5fe5be8d60abd47fd44ad9",
+    "vrf_proof": "0x0207e2e637bb51f8710db2a2a800bd81e26d63be62c537666bad906343777194a014bed90d1b075c631d15e370ee4809bf0467d8713b9dc5b981e78a0599571a1a5aa79f1825f0992e14eb6e921919bdee",
+    "image": "ipfs://bafkreiaq77i7oflk7wpbrvf6pxhir5c2bz34nwovu6j3jcjq6wtngdgkrq",
     "attributes": [
         {
             "trait_type": "hair",
-            "value": "orange"
+            "value": "yellow"
         },
         {
             "trait_type": "coat",
-            "value": "green"
+            "value": "red"
         },
         {
             "trait_type": "shirt",
@@ -30,7 +31,7 @@
         },
         {
             "trait_type": "eyebrow",
-            "value": "orange"
+            "value": "purple"
         },
         {
             "trait_type": "eyes",
@@ -38,7 +39,7 @@
         },
         {
             "trait_type": "drool",
-            "value": "orange"
+            "value": "teal"
         },
         {
             "display_type": "number",
@@ -47,8 +48,8 @@
         }
     ],
     "network": "Goerli",
-    "chain_id": 1337,
+    "chain_id": 5,
     "distributor": "0xCA76A94C54b461d7230a59f4f78C1Dd3a0eACd63",
-    "contract": "0xA2399a92d726e88960dd606789F0cc1162D15189",
-    "signature": "0xb6584ca734053ee3967f9b4133b0780cdee9d98f3e1cea20465834063fe0d17820fe36fcc1960726f79aca81c3d8b3ea3723407a36ce0628d89ea7a8798645b11b"
+    "contract": "0x3807c8Bf9BB9c84B6F17485Db367d385fDa804E0",
+    "signature": "0xd0b576a521d425bfe2d2485be9fa593e9b72f5355c9195eed79ae5d545fd06bf1ec7cee4c75b90591de72655b9f9c836a832fd33252766ba2c8ed9bd9e3aa0131c"
 }

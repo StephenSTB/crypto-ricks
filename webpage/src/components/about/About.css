@@ -1,23 +1,24 @@
 #about{
     font-size: 18pt;
-    /*font-family: Roboto;*/
+    font-family: Schwifty;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#introduction, #generation-introduction, #contract-introduction, #metadata-introduction, #attribute-percentage, #metadata-introduction, #metadata-introduction, #about-protcol, #protocol-introduction{
+#introduction, #attributes-introduction, #generation-introduction, #contract-introduction, #metadata-introduction, #attribute-percentage, 
+#metadata-introduction, #metadata-introduction, #about-protcol, #protocol-introduction, #about-webpage{
     width: 90%;
 }
 
-#generation, #attributes, #value-label, .attribute-value, .attribute-value-last, #about-contract, #attribute-percentage,#about-metadata, #about-protocol{
+#generation, #attributes, #value-label, .attribute-value, .attribute-value-last, #about-contract,#about-metadata, #about-protocol{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#generation-introduction, #about-contract, #attribute-percentage, #metadata-introduction, #protocol-introduction {
+#generation-introduction, #about-contract, #attribute-percentage, #metadata-introduction, #protocol-introduction, #webpage-introduction {
     /*font-family: Roboto;*/
     text-align: left;
     margin-left: 10px;
@@ -116,6 +117,7 @@
 .table-col{
     border-right: 1px solid black;
 }
+
 .table-col, .table-col-last{
     height: 100%;
     display: flex;
@@ -123,24 +125,22 @@
     justify-content: center;
     align-items: center;
 }
+
 .small-font{
     font-size: 15pt;
 }
 
-#iterations{
-    color: var(--light);
-}
-
 #attribute-percentage{
-
     margin-top: 20px;
-
 }
+
+
+
 /* Desktop */
 @media screen and (min-width: 900px) {
 
     #about{
-        width: 70%;
+        width: 70vw;
         border-left:solid 1px black ;
         border-right:solid 1px black ;
         align-self: center;
@@ -173,30 +173,167 @@
         max-width: 165px;
     }
     .side-trait, .side-trait-last{
-        height: 50px;
-        min-height: 50px;
-        max-height: 50px;
+        height: 100px;
+        min-height: 100px;
+        max-height: 100px;
     }
     #table-main{
-        height: 400px;
-        min-height: 400px;
-        max-height: 400px;
+        height: 800px;
+        min-height: 800px;
+        max-height: 800px;
     }
     .table-row, .table-row-last{
-        height: 50px;
-        min-height: 50px;
-        max-height: 50px;
+        height: 100px;
+        min-height: 100px;
+        max-height: 100px;
     }
     .table-col, .table-col-last{
         width: 127px;
         min-width: 127px;
         max-width: 127px;
+    }
+    #github-image{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .table-image{
+        height: 180px;
+        width: 100px;
+        /*border:  solid 1px palegreen;*/
         
+    }
+    .table-hair{
+        margin-top: 80px;
+    }
+    .table-coat, .table-shirt{
+        margin-bottom: 100px;
+    }
+    .table-head{
+        margin-top: 20px;
+    }
+    .table-face{
+        margin-top: 25px;
+        height: 200px;
+        width: 111px;
+    }
+    .table-eyebrow{
+        height: 300px;
+        width: 200px;
+        margin-top: 125px;
+    }
+    .table-eyes{
+        height: 300px;
+        width: 200px;
+        margin-top: 100px;
+    }
+    .table-drool{
+        height: 450px;
+        width: 300px;
+        margin-bottom: 50px;
     }
 }
 
 /*Mobile*/
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 900px) 
 {
-	
+    #about{
+        width: 100vw;
+        border-left:solid 1px black ;
+        border-right:solid 1px black ;
+        align-self: center;
+    }
+
+    #attributes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #table-outer{
+        width: 375px;
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    #value-label, #top-values{
+        min-height: 30px;
+        max-height: 30px;
+    }
+    .attribute-value, .attribute-value-last, .table-col, .table-col-last{
+        min-width: 55px;
+        max-width: 55px;
+    }
+    #table-spacer{
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        min-width: 100px;
+        max-width: 100px;
+        height: 61px;
+    }
+    #table-side{
+        min-width: 100px;
+        max-width: 100px;
+    }
+    #side-label{
+        min-width: 30px;
+        max-width: 30px;
+    }
+    .side-trait, .side-trait-last{
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+
+    #table-main{
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    .table-row, .table-row-last{
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+
+	.table-image{
+        height: 60px;
+        width: 40px;
+        
+    }
+    .table-hair{
+        margin-top: 30px;
+    }
+    .table-coat, .table-shirt{
+        margin-bottom: 40px;
+    }
+    .table-head{
+        margin-top: 10px;
+    }
+    .table-face{
+        height: 90px;
+        width: 60px;
+        margin-top: 20px;
+    }
+    .table-eyebrow{
+        height: 180px;
+        width: 120px;
+        margin-top: 85px;
+    }
+
+    .table-eyes{
+        height: 180px;
+        width: 120px;
+        margin-top: 60px;
+    }
+    .table-drool{
+        height: 360px;
+        width: 240px;
+        margin-bottom: 30px;
+    }
+    
+    #github-image{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
 }
