@@ -1,4 +1,4 @@
-# crypto-ricks
+# Crypto Ricks
 
 ## Introduction
   Crypto Ricks images are composed of eight traits.
@@ -16,12 +16,12 @@
   
 ## Smart Contract
 
-    The Crypto Ricks smart contract can be analyzed at:0x94dd01108e8456c8857335da1edfe4095fd8118b The contract conforms to the ERC 721 standard and utilizes merkleprool and vrf-solidityto verify correctness of the NFT's generated. 
+    The Crypto Ricks smart contract can be analyzed at:0x94dd01108e8456c8857335da1edfe4095fd8118b The contract conforms to the ERC 721 standard and utilizes merkleprool and vrf-solidity to verify correctness of the NFT's generated. 
     The contract contains an immutable distributor address:  which was used to sign each NFT's metadata and generate VRFs proving authenticity.
     
 ## Metadata
 
-    The complete metadata for the NFT's can be found here. To ensure authenticity of the NFTs' each JSON Metadata object was signed in the form 'name-id-external_url-iterations-vrf_message_hex-metadata-vrf_proof-image-attributes-network-chain_id-distributor-contract' 
+    The complete metadata for the NFT's can be found here. To ensure authenticity of the NFTs' each JSON Metadata object was signed in the form "name-id-external_url-iterations-vrf_message_hex-metadata-vrf_proof-image-attributes-network-chain_id-distributor-contract"
     (each metadata variable separated by a dash). The complete metadata directory contains a metadata json file which contains the Merkle root, Merkle leaves and contract. 
     This is signed by the distributor in the form 'root-leaves-contract' as well and is utilized for NFT verification.
     
