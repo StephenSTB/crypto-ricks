@@ -15,16 +15,13 @@
   Once the metadata from a Rick is generated a hash (Merkle tree leaf) is generated from the Ricks CID, VRF message and VRF proof. After completion of generating the Ricks a Merkle tree is created from the Merkle tree leaves for on chain verification of the NFT collection.
   
 ## Smart Contract
-
     The Crypto Ricks smart contract can be analyzed at:0x94dd01108e8456c8857335da1edfe4095fd8118b The contract conforms to the ERC 721 standard and utilizes merkleprool and vrf-solidity to verify correctness of the NFT's generated. 
     The contract contains an immutable distributor address:  which was used to sign each NFT's metadata and generate VRFs proving authenticity.
     
 ## Metadata
-
     The complete metadata for the NFT's can be found here. To ensure authenticity of the NFTs' each JSON Metadata object was signed in the form "name-id-external_url-iterations-vrf_message_hex-metadata-vrf_proof-image-attributes-network-chain_id-distributor-contract"
     (each metadata variable separated by a dash). The complete metadata directory contains a metadata json file which contains the Merkle root, Merkle leaves and contract. 
     This is signed by the distributor in the form 'root-leaves-contract' as well and is utilized for NFT verification.
     
 ## Protocol
-
     To guarantee authenticity of the NFT's created, a specific distribution process was utilized. First the Crypto Ricks smart contract was deployed containing an immutable Distributor address and immutable VRF public key points x and y. It can be independently verified that the public key points used to prove the VRF operations belong to the Distributor address. Once the smart contract was deployed metadata generation procedures could then begin. First the original Rick NFT had to be found using the contract seed. (iteration results from this process were recorded for verification in iterations.json.) Next the Ricks metadata were generated and signed utilizing the distributor address. (Ricks metadata are in the form 0.json 1.json ... etc) After that a Merkle tree was created and metadata associated was signed with the distributor address. ( NFT verification metadata recorded in metadata.json) Once the metadata directory was completed a non distributed CID was created. Next the SetProofVariables function was called on the contract. So, the baseURI (containing metadata directory CID) and Merkle root were posted on chain. (A non distributed baseURI was posted to prevent front running.) Finally, the NFT metadata was distributed on IPFS! Let there be Crypto Ricks! (Note all ricks can be viewed before minting this was not overlooked.)
